@@ -1,0 +1,2 @@
+class Subdepartment < ApplicationRecord
+end
