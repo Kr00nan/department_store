@@ -1,0 +1,5 @@
+<h1> Sub Departments </h1>
+<% @subdepartments.each do |subdepartment| %>
+  <h2><%= subdepartment.name %></h2>
+  <%= link_to 'Show Sub Department Page', subdepartment_path(subdepartment) %>
+<% end %>
